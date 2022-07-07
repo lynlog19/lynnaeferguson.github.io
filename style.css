@@ -9,11 +9,13 @@ body {
   background-color: '#4d7b6f';
 }
 
-h2 {
+h1 {
  color: '#4d7b6f';
 }
 
 img {
   height: 300px;
+  width: 300px;
+  border: '2px solid black';
 }
 
