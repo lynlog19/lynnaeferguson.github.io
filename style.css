@@ -1,0 +1,26 @@
+html,
+body {
+  padding: 5;
+  margin: 0;
+  font-family: "Monaco", "Lucida Console", "Courier New", monospace;
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: #4d7b6f;
+}
+
+h1 {
+ color: white;
+ text-align: center;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
