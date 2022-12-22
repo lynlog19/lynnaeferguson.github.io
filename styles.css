@@ -1,0 +1,93 @@
+body {
+  padding-top: 60px;
+  background-color: #153b3c;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+text {
+  color: #c2cdd5;
+}
+
+h1 { 
+  font-family: Consolas, monaco, monospace; 
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #c2cdd5;
+} 
+
+h3 { 
+  font-family: Consolas, monaco, monospace; 
+  font-size: 24px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 15.4px; 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #c2cdd5;
+} 
+
+p { 
+  font-family: Consolas, monaco, monospace; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 20px; 
+  color: #c2cdd5;
+  padding: 5px;
+} 
+
+blockquote { 
+  font-family: Consolas, monaco, monospace; 
+  font-size: 21px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 30px; 
+} 
+
+pre { 
+  font-family: Consolas, monaco, monospace; 
+  font-size: 13px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 18.5714px; 
+}
+
+header { 
+  padding: 0px; 
+  position: sticky; 
+  top: 0px; 
+  left: 0px; 
+  background: #FFF; 
+  z-index: 1000;
+}
+
+header.fixed-header {
+  box-shadow: 20px 4px 10px rgba(39, 59, 69, 0.2);
+}
+
+header .logo img {
+  width:200px;
+  transition: all linear .5s;
+
+}
+
+header.fixed-header .logo img {
+  width:100px;
+}
+
+.box-height { 
+  height: 500px;
+}
