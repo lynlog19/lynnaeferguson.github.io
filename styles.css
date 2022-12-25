@@ -1,6 +1,6 @@
 body {
   padding-top: 60px;
-  background-color: #153b3c;
+  background-color: #153b3c !important;
 }
 @media (max-width: 979px) {
   body {
